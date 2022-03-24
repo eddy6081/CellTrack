@@ -14,8 +14,9 @@ Matlab implementation tracks cells using a simple minimum distance scheme. Scrip
 
 | Step 1 | Step 2 |
 |---|---|
-| ![](/Matlab/Tutorial/Overlap_1.mov) | ![](/Matlab/Tutorial/Overlap_2.mov) |
-
+| <video width="320" height="240" controls><source src="/Matlab/Tutorial/Overlap_1.mov" type="video/mp4"></video>
+ | <video width="320" height="240" controls><source src="/Matlab/Tutorial/Overlap_2.mov" type="video/mp4"></video>
+ |
 
 (2) Use PreviousCell_2D_v2.m to track and measure cell geometries.
 - Requires maximum projection images and segmented cells. Recursively asks user to indicate which image stacks are to be analyzed. Asks user to select a folder in which to save cell-labeled images during tracking.
