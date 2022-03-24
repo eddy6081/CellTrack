@@ -14,9 +14,8 @@ Matlab implementation tracks cells using a simple minimum distance scheme. Scrip
 
 | Step 1 | Step 2 |
 |---|---|
-| <video width="320" height="240" controls><source src="/Matlab/Tutorial/Overlap_1.mov" type="video/mp4"></video>
- | <video width="320" height="240" controls><source src="/Matlab/Tutorial/Overlap_2.mov" type="video/mp4"></video>
- |
+| ![overlap_tutorial_1](/Matlab/Tutorial/Overlap_1.mov) | ![overlap_tutorial_2](/Matlab/Tutorial/Overlap_2.mov) |
+
 
 (2) Use PreviousCell_2D_v2.m to track and measure cell geometries.
 - Requires maximum projection images and segmented cells. Recursively asks user to indicate which image stacks are to be analyzed. Asks user to select a folder in which to save cell-labeled images during tracking.
@@ -24,11 +23,11 @@ Matlab implementation tracks cells using a simple minimum distance scheme. Scrip
 - Returns saved .mat files in the same folder as the cell-labeled images.
 - Once complete, returns a .csv file with cell labels and their geometric measurements.
 
-![](/Matlab/Tutorial/PreviousCell_1.mov)
+![cell_tracking_tutorial](/Matlab/Tutorial/PreviousCell_1.mov)
 
 (3a) Use Detect_Error.m which uses cell centroid locations to make user aware of possible errors during tracking and request user to specify how to correct detections. Generates a .txt file that tracks any changes that were made, and creates a new .csv file with user changes.
 
-![](/Matlab/Tutorial/Detect_Error.mov)
+![error_detect_tutorial](/Matlab/Tutorial/Detect_Error.mov)
 
 (3b) After reviewing the tracked cell-labeled images, if a mistake was made that was not detected by Detect_Error.m, or if a cell is mislabeled, use ChangeCellNum.m to fix the error.
 
